@@ -1,0 +1,25 @@
+{
+  "name": "digital-citizenship-devportal",
+  "description": "Developer portal for Digital Citizenship API",
+  "version": "1.0.0",
+  "author": "AgID, Team per la Trasformazione Digitale <cittadinanzadigitale@teamdigitale.governo.it>",
+  "dependencies": {
+    "gatsby": "^1.9.119",
+    "gatsby-link": "^1.6.28",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-typescript": "^1.4.10",
+    "serve": "^9.1.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -H localhost"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.7",
+    "@types/react": "15.0.21",
+    "@types/react-dom": "0.14.23",
+    "@types/react-helmet": "^5.0.6",
+    "prettier": "^1.13.6"
+  }
+}
