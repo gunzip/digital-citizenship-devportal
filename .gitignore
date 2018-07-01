@@ -8,6 +8,7 @@ public/
 yarn-error.log
 
 **/*.js
+!gatsby*.js
 **/*.log
 **/local.*
 **/*.js.map
